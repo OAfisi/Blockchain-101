@@ -1,0 +1,47 @@
+Blockchain-101/
+├── README.md
+│   - The main introduction to the repository.
+│   - Links to key resources and files in the repository.
+│   - Contains a summary of the goals and contents of the project.
+│
+├── Blockchain_Intro.md
+│   - Introduction to blockchain technology.
+│   - Explains core concepts: decentralization, transparency, immutability.
+│   - Includes real-world applications like cryptocurrencies, supply chain, and more.
+│
+├── Advanced_Blockchain.md
+│   - Covers advanced topics such as:
+│       - Smart contracts
+│       - Consensus mechanisms (PoW, PoS, DPoS)
+│       - Scalability solutions (Layer 2, sharding, rollups)
+│       - Interoperability protocols (Polkadot, Cosmos)
+│   - Provides deeper insights into the blockchain ecosystem.
+│
+├── Simple_Blockchain.py
+│   - Python implementation of a simple blockchain.
+│   - Demonstrates:
+│       - How blocks are created and linked.
+│       - The basics of hashing and immutability.
+│   - Includes example usage to show how transactions are added.
+│
+├── Decentralized_Voting_System.sol
+│   - A Solidity smart contract implementing a simple voting system.
+│   - Key Features:
+│       - Allows candidates to be added during contract creation.
+│       - Users can cast votes securely.
+│       - Ensures voters cannot vote multiple times.
+│       - Returns real-time vote counts.
+│
+├── Diagrams/
+│   ├── blockchain_diagram.png
+│   │   - A visual representation of how blockchain technology works.
+│   │   - Useful for beginners to understand the concept of a distributed ledger.
+│   │
+│   ├── blockchain_transaction_flow.png
+│       - A diagram showing the process of a blockchain transaction:
+│           1. User initiates a transaction.
+│           2. Transaction is broadcast to the network.
+│           3. Miners validate and add the transaction to the blockchain.
+│           4. Transaction becomes visible and confirmed for all participants.
+│       - Explains the flow visually for easy comprehension.
+│
